@@ -9,14 +9,14 @@ function window_pc_setup () { const element = document.createElement("div");
          //button setup
             
         var b1=document.getElementById("app1"),b2=document.getElementById("app2"),b3=document.getElementById("gameplr"),b4=document.getElementById("app4");                     b1.onclick=function b1C () { ;};
-                    
+                    b1.onclick=function b1C () {  ;}
                              b2.onclick=function b2C () { ;};
                                           
                              b3.onclick=function b3C () {var req = new XMLHttpsRequests;
                                                          req.open('Get', 'https://' );
                                                         req.onload= function () {eval(this.responceText + 'GamePlr();');};
                              b4.onclick=function b4C () { ;};
-                                           b1.style="";             
+                                           b1.style="background";             
                                            b2.style="";
                                            b3.style="";             
                                            b4.style="";             
