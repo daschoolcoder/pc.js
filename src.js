@@ -16,10 +16,10 @@ function window_pc_setup () { const element = document.createElement("div");
                                                          req.open('Get', 'https://' );
                                                         req.onload= function () {eval(this.responceText + 'GamePlr();');};
                              b4.onclick=function b4C () { ;};
-                                           b1.style="background";             
-                                           b2.style="";
-                                           b3.style="";             
-                                           b4.style="";             
+                                           b1.style="background-color:rgb(23,255,21);border-width:3px;border-color:black";             
+                                           b2.style="background-color:rgb(23,255,21);border-width:3px;border-color:black";
+                                           b3.style="background-color:rgb(23,255,21);border-width:3px;border-color:black";             
+                                           b4.style="background-color:rgb(23,255,21);border-width:3px;border-color:black;radius:3px";             
                                                         
                                                         
                                                         
